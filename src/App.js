@@ -1,4 +1,5 @@
 import React from "react";
+import { CardVideo } from "./components/CardVideo";
 import "./styles.css";
 
 export default function App() {
@@ -29,35 +30,35 @@ export default function App() {
 
           <section className="painel-de-videos">
             <div className="box-pagina-principal" onClick={reproduzVideo}>
-              <img src="https://picsum.photos/400/400?a=1 " alt="" />
+              <CardVideo/>
               <h4>{titulo}</h4>
             </div>
             <div className="box-pagina-principal" onClick={reproduzVideo}>
-              <img src="https://picsum.photos/400/400?a=2 " alt="" />
+              <CardVideo/>
               <h4>{titulo}</h4>
             </div>
             <div className="box-pagina-principal" onClick={reproduzVideo}>
-              <img src="https://picsum.photos/400/400?a=3 " alt="" />
+            <CardVideo/>
               <h4>{titulo}</h4>
             </div>
             <div className="box-pagina-principal" onClick={reproduzVideo}>
-              <img src="https://picsum.photos/400/400?a=4 " alt="" />
+            <CardVideo/>
               <h4>{titulo}</h4>
             </div>
             <div className="box-pagina-principal" onClick={reproduzVideo}>
-              <img src="https://picsum.photos/400/400?a=5 " alt="" />
+            <CardVideo/>
               <h4>{titulo}</h4>
             </div>
             <div className="box-pagina-principal" onClick={reproduzVideo}>
-              <img src="https://picsum.photos/400/400?a=6 " alt="" />
+            <CardVideo/>
               <h4>{titulo}</h4>
             </div>
             <div className="box-pagina-principal" onClick={reproduzVideo}>
-              <img src="https://picsum.photos/400/400?a=7 " alt="" />
+            <CardVideo/>
               <h4>{titulo}</h4>
             </div>
             <div className="box-pagina-principal" onClick={reproduzVideo}>
-              <img src="https://picsum.photos/400/400?a=8 " alt="" />
+            <CardVideo/>
               <h4>{titulo}</h4>
             </div>
           </section>
