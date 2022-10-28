@@ -3,11 +3,6 @@ import { CardVideo } from "./components/CardVideo";
 import "./styles.css";
 
 export default function App() {
-  const titulo = "Título do vídeo";
-
-  function reproduzVideo() {
-    alert("O vídeo está sendo reproduzido");
-  }
   return (
     <div>
       <div className="tela-inteira">
@@ -29,38 +24,18 @@ export default function App() {
           </nav>
 
           <section className="painel-de-videos">
-            <div className="box-pagina-principal" onClick={reproduzVideo}>
-              <CardVideo/>
-              <h4>{titulo}</h4>
-            </div>
-            <div className="box-pagina-principal" onClick={reproduzVideo}>
-              <CardVideo/>
-              <h4>{titulo}</h4>
-            </div>
-            <div className="box-pagina-principal" onClick={reproduzVideo}>
-            <CardVideo/>
-              <h4>{titulo}</h4>
-            </div>
-            <div className="box-pagina-principal" onClick={reproduzVideo}>
-            <CardVideo/>
-              <h4>{titulo}</h4>
-            </div>
-            <div className="box-pagina-principal" onClick={reproduzVideo}>
-            <CardVideo/>
-              <h4>{titulo}</h4>
-            </div>
-            <div className="box-pagina-principal" onClick={reproduzVideo}>
-            <CardVideo/>
-              <h4>{titulo}</h4>
-            </div>
-            <div className="box-pagina-principal" onClick={reproduzVideo}>
-            <CardVideo/>
-              <h4>{titulo}</h4>
-            </div>
-            <div className="box-pagina-principal" onClick={reproduzVideo}>
-            <CardVideo/>
-              <h4>{titulo}</h4>
-            </div>
+
+            <CardVideo />
+            <CardVideo />
+            <CardVideo />
+            <CardVideo />
+            <CardVideo />
+            <CardVideo />
+            <CardVideo />
+            <CardVideo />
+
+
+
           </section>
         </main>
 
